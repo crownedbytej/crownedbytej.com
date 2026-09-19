@@ -722,7 +722,6 @@
 
             </div>
         </section>
-    </main>
 
     <div id="booking-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-navy-950/90 backdrop-blur-md hidden">
         <div class="bg-navy-900 border-2 border-gold-400 p-8 sm:p-10 max-w-md w-full text-center relative shadow-2xl royal-glow">
