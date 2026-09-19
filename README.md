@@ -203,18 +203,10 @@
                 </div>
 
                 <!-- Key Metrics -->
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-6 pt-12 border-t border-gold-500/20 max-w-4xl mx-auto">
-                    <div class="p-3">
-                        <div class="font-heading text-3xl font-bold text-gold-metallic">1,200+</div>
-                        <div class="font-sans text-[11px] tracking-wider uppercase text-slate-400 mt-1">Grooms Crowned</div>
-                    </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-12 border-t border-gold-500/20 max-w-2xl mx-auto">
                     <div class="p-3">
                         <div class="font-heading text-3xl font-bold text-gold-metallic">100%</div>
                         <div class="font-sans text-[11px] tracking-wider uppercase text-slate-400 mt-1">Symmetrical Precision</div>
-                    </div>
-                    <div class="p-3">
-                        <div class="font-heading text-3xl font-bold text-gold-metallic">15+</div>
-                        <div class="font-sans text-[11px] tracking-wider uppercase text-slate-400 mt-1">Years of Mastery</div>
                     </div>
                     <div class="p-3">
                         <div class="font-heading text-3xl font-bold text-gold-metallic">VIP</div>
@@ -1111,3 +1103,4 @@
     </script>
 </body>
 </html>
+
