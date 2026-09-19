@@ -669,12 +669,8 @@
 
                 <!-- FAQ Item 3 -->
                 <div class="border border-gold-500/30 bg-navy-900/60 overflow-hidden">
-                    <button onclick="toggleFaq(3)" class="w-full p-5 text-left font-heading text-sm font-bold text-slate-200 flex justify-between items-center hover:text-gold-300 transition">
-                        <span>Can Tej travel to destination weddings outside the local region?</span>
-                        <i id="faq-icon-3" class="fa-solid fa-chevron-down text-gold-400 transition-transform"></i>
-                    </button>
+                    <button onclick="toggleFaq(3)" class="w-full p-5 text-left font-heading text-sm font-bold text-slate-200 flex justify-between items-center hover:text-gold-300 transition"> 
                     <div id="faq-ans-3" class="hidden px-5 pb-5 text-xs text-slate-300 font-light leading-relaxed border-t border-gold-500/10 pt-3">
-                        Yes. Tej regularly travels worldwide for destination weddings and elite galas. Travel and lodging arrangements are calculated into a bespoke concierge package.
                     </div>
                 </div>
 
@@ -798,7 +794,6 @@
                 <ul class="space-y-2">
                     <li>Greater Vancouver & Fraser Valley</li>
                     <li>Surrey • Abbotsford • Vancouver</li>
-                    <li>Destination Weddings Worldwide</li>
                 </ul>
             </div>
 
