@@ -1,4 +1,5 @@
 # crownedbytej.com
+<!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
@@ -359,21 +360,21 @@
                                 1. Select Occasion Stature
                             </label>
                             <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
-                                <button type="button" onclick="selectOccasion('groom', 180)" class="occasion-btn active p-4 border border-gold-500 bg-burgundy-900/60 text-center hover:border-gold-300 transition text-xs font-heading uppercase tracking-wider text-slate-100">
+                                <button type="button" onclick="selectOccasion('groom', 75)" class="occasion-btn active p-4 border border-gold-500 bg-burgundy-900/60 text-center hover:border-gold-300 transition text-xs font-heading uppercase tracking-wider text-slate-100">
                                     <i class="fa-solid fa-crown text-gold-400 text-xl block mb-2"></i>
-                                    Royal Groom
+                                    Royal Groom ($75)
                                 </button>
-                                <button type="button" onclick="selectOccasion('barati', 75)" class="occasion-btn p-4 border border-slate-700 bg-navy-900/60 text-center hover:border-gold-300 transition text-xs font-heading uppercase tracking-wider text-slate-300">
+                                <button type="button" onclick="selectOccasion('barati', 35)" class="occasion-btn p-4 border border-slate-700 bg-navy-900/60 text-center hover:border-gold-300 transition text-xs font-heading uppercase tracking-wider text-slate-300">
                                     <i class="fa-solid fa-user-tie text-slate-400 text-xl block mb-2"></i>
-                                    Barat / Family
+                                    Barat / Family ($35)
                                 </button>
-                                <button type="button" onclick="selectOccasion('executive', 85)" class="occasion-btn p-4 border border-slate-700 bg-navy-900/60 text-center hover:border-gold-300 transition text-xs font-heading uppercase tracking-wider text-slate-300">
+                                <button type="button" onclick="selectOccasion('executive', 45)" class="occasion-btn p-4 border border-slate-700 bg-navy-900/60 text-center hover:border-gold-300 transition text-xs font-heading uppercase tracking-wider text-slate-300">
                                     <i class="fa-solid fa-building text-slate-400 text-xl block mb-2"></i>
-                                    Executive Formal
+                                    Executive Formal ($45)
                                 </button>
-                                <button type="button" onclick="selectOccasion('vip', 220)" class="occasion-btn p-4 border border-slate-700 bg-navy-900/60 text-center hover:border-gold-300 transition text-xs font-heading uppercase tracking-wider text-slate-300">
+                                <button type="button" onclick="selectOccasion('vip', 50)" class="occasion-btn p-4 border border-slate-700 bg-navy-900/60 text-center hover:border-gold-300 transition text-xs font-heading uppercase tracking-wider text-slate-300">
                                     <i class="fa-solid fa-star text-slate-400 text-xl block mb-2"></i>
-                                    Gala VIP Concierge
+                                    Pre-Wedding Shoot ($50)
                                 </button>
                             </div>
                         </div>
@@ -398,7 +399,7 @@
                                         <span class="font-heading text-xs text-slate-100 font-bold block uppercase tracking-wider">Rubia Heavy</span>
                                         <span class="text-[11px] text-slate-400 font-light block mt-1">Higher thread density, bold firmness.</span>
                                     </div>
-                                    <span class="text-xs text-gold-400 font-semibold mt-3 block">+$15</span>
+                                    <span class="text-xs text-gold-400 font-semibold mt-3 block">+$5</span>
                                 </label>
                                 <label class="cursor-pointer p-4 border border-slate-700 bg-navy-900/60 flex flex-col justify-between hover:border-gold-400">
                                     <input type="radio" name="fabric" value="Malmal Soft Royal" onchange="updateEstimator()" class="sr-only">
@@ -406,7 +407,7 @@
                                         <span class="font-heading text-xs text-slate-100 font-bold block uppercase tracking-wider">Malmal Soft Royal</span>
                                         <span class="text-[11px] text-slate-400 font-light block mt-1">Ultra-delicate luxury heritage touch.</span>
                                     </div>
-                                    <span class="text-xs text-gold-400 font-semibold mt-3 block">+$20</span>
+                                    <span class="text-xs text-gold-400 font-semibold mt-3 block">+$10</span>
                                 </label>
                             </div>
                         </div>
@@ -423,7 +424,7 @@
                                     <option value="Monarch Emerald Green">Monarch Emerald Green</option>
                                     <option value="Pristine Ivory Pearl">Pristine Ivory Pearl</option>
                                     <option value="Maharaja Crimson Red">Maharaja Crimson Red</option>
-                                    <option value="Custom Bespoke Color Match">Custom Bespoke Color Match (+$30)</option>
+                                    <option value="Custom Bespoke Color Match">Custom Bespoke Color Match (+$10)</option>
                                 </select>
                             </div>
 
@@ -448,15 +449,15 @@
                             <div class="space-y-2">
                                 <label class="flex items-center space-x-3 text-xs text-slate-300 cursor-pointer">
                                     <input type="checkbox" id="acc-kalgi" onchange="updateEstimator()" class="rounded border-gold-500/40 text-gold-500 focus:ring-0">
-                                    <span>Jeweled Royal Kalgi Placement & Balance (+$25)</span>
+                                    <span>Jeweled Royal Kalgi Placement & Balance (+$10)</span>
                                 </label>
                                 <label class="flex items-center space-x-3 text-xs text-slate-300 cursor-pointer">
                                     <input type="checkbox" id="acc-sehra" onchange="updateEstimator()" class="rounded border-gold-500/40 text-gold-500 focus:ring-0">
-                                    <span>Groom Sehra / Pearl Strings Attachment (+$20)</span>
+                                    <span>Groom Sehra / Pearl Strings Attachment (+$15)</span>
                                 </label>
                                 <label class="flex items-center space-x-3 text-xs text-slate-300 cursor-pointer">
                                     <input type="checkbox" id="acc-reception" onchange="updateEstimator()" class="rounded border-gold-500/40 text-gold-500 focus:ring-0">
-                                    <span>On-Site Reception Restyle & Evening Touch-Up (+$90)</span>
+                                    <span>On-Site Reception Restyle & Evening Touch-Up (+$25)</span>
                                 </label>
                             </div>
                         </div>
@@ -468,7 +469,7 @@
                         <div class="space-y-6">
                             <div class="border-b border-gold-500/30 pb-4">
                                 <span class="font-heading text-[10px] text-gold-400 uppercase tracking-widest block">Estimated Royal Package</span>
-                                <div id="total-price" class="font-heading text-4xl font-bold text-gold-metallic mt-1">$180</div>
+                                <div id="total-price" class="font-heading text-4xl font-bold text-gold-metallic mt-1">$75</div>
                                 <p class="text-[11px] text-slate-400 mt-1">Includes custom starching, precision tying & style lock.</p>
                             </div>
 
@@ -526,9 +527,9 @@
                 <div class="bg-navy-900/60 border border-gold-500/20 p-8 flex flex-col justify-between hover:border-gold-500/50 transition">
                     <div class="space-y-6">
                         <div>
-                            <span class="font-heading text-xs tracking-widest text-gold-400 uppercase">Single Executive</span>
-                            <h3 class="font-heading text-2xl font-bold text-slate-100 mt-1">Signature Session</h3>
-                            <div class="text-3xl font-bold text-slate-100 mt-3 font-heading">$120 <span class="text-xs text-slate-400 font-normal">/ session</span></div>
+                            <span class="font-heading text-xs tracking-widest text-gold-400 uppercase">Barat & Guests</span>
+                            <h3 class="font-heading text-2xl font-bold text-slate-100 mt-1">Guest & Barat Styling</h3>
+                            <div class="text-3xl font-bold text-slate-100 mt-3 font-heading">$35 <span class="text-xs text-slate-400 font-normal">/ person</span></div>
                         </div>
                         <ul class="space-y-3 text-xs text-slate-300 border-t border-gold-500/20 pt-6">
                             <li class="flex items-center"><i class="fa-solid fa-check text-gold-400 mr-3"></i> 1-on-1 bespoke styling session</li>
@@ -538,11 +539,11 @@
                         </ul>
                     </div>
                     <a href="#booking" class="mt-8 block text-center border border-gold-500/40 text-gold-300 font-heading text-xs uppercase tracking-widest py-3 hover:bg-gold-500/10 transition">
-                        Select Signature
+                        Select Guest Service
                     </a>
                 </div>
 
-                <!-- Package 2 (Featured Groom Package) -->
+                <!-- Package 2 (Featured Groom Package - Capped at $75 max) -->
                 <div class="bg-burgundy-950/70 border-2 border-gold-400 p-8 flex flex-col justify-between relative shadow-2xl royal-glow">
                     <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-gold-400 text-navy-950 font-heading text-[10px] font-bold uppercase tracking-widest px-4 py-1">
                         Most Requested
@@ -550,19 +551,19 @@
                     <div class="space-y-6">
                         <div>
                             <span class="font-heading text-xs tracking-widest text-gold-300 uppercase">Groom's Crown</span>
-                            <h3 class="font-heading text-2xl font-bold text-slate-100 mt-1">Wedding Groom Crown</h3>
-                            <div class="text-3xl font-bold text-gold-metallic mt-3 font-heading">$260 <span class="text-xs text-slate-300 font-normal">/ complete wedding day</span></div>
+                            <h3 class="font-heading text-2xl font-bold text-slate-100 mt-1">Groom Royal Pagg Experience</h3>
+                            <div class="text-3xl font-bold text-gold-metallic mt-3 font-heading">$75 <span class="text-xs text-slate-300 font-normal">/ complete wedding session</span></div>
                         </div>
                         <ul class="space-y-3 text-xs text-slate-200 border-t border-gold-500/30 pt-6">
                             <li class="flex items-center"><i class="fa-solid fa-crown text-gold-400 mr-3"></i> Master Groom Royal Patiala / Wattan Crown</li>
                             <li class="flex items-center"><i class="fa-solid fa-gem text-gold-400 mr-3"></i> Kalgi, Sehra & Pearl Strand Attachment</li>
                             <li class="flex items-center"><i class="fa-solid fa-shirt text-gold-400 mr-3"></i> Premium Starching & Steaming Preparation</li>
-                            <li class="flex items-center"><i class="fa-solid fa-user-plus text-gold-400 mr-3"></i> Includes 1 Assistant Tyer for Father/Brother</li>
+                            <li class="flex items-center"><i class="fa-solid fa-user-plus text-gold-400 mr-3"></i> Dedicated styling & mirror alignment</li>
                             <li class="flex items-center"><i class="fa-solid fa-car text-gold-400 mr-3"></i> On-location venue travel included</li>
                         </ul>
                     </div>
                     <a href="#booking" class="mt-8 block text-center shimmer-btn text-navy-950 font-heading text-xs font-bold uppercase tracking-widest py-3.5 border border-gold-200">
-                        Reserve Groom Crown
+                        Reserve Groom Crown ($75)
                     </a>
                 </div>
 
@@ -570,19 +571,19 @@
                 <div class="bg-navy-900/60 border border-gold-500/20 p-8 flex flex-col justify-between hover:border-gold-500/50 transition">
                     <div class="space-y-6">
                         <div>
-                            <span class="font-heading text-xs tracking-widest text-gold-400 uppercase">Barat & Entourage</span>
-                            <h3 class="font-heading text-2xl font-bold text-slate-100 mt-1">Royal Barat Group</h3>
-                            <div class="text-3xl font-bold text-slate-100 mt-3 font-heading">$480 <span class="text-xs text-slate-400 font-normal">/ up to 5 people</span></div>
+                            <span class="font-heading text-xs tracking-widest text-gold-400 uppercase">Special Shoots</span>
+                            <h3 class="font-heading text-2xl font-bold text-slate-100 mt-1">Pre-Wedding / Shoot</h3>
+                            <div class="text-3xl font-bold text-slate-100 mt-3 font-heading">$50 <span class="text-xs text-slate-400 font-normal">/ photo session</span></div>
                         </div>
                         <ul class="space-y-3 text-xs text-slate-300 border-t border-gold-500/20 pt-6">
-                            <li class="flex items-center"><i class="fa-solid fa-users text-gold-400 mr-3"></i> Complete styling for 5 groomsmen / baratis</li>
+                            <li class="flex items-center"><i class="fa-solid fa-camera text-gold-400 mr-3"></i> Camera-ready crisp sharp edges</li>
                             <li class="flex items-center"><i class="fa-solid fa-palette text-gold-400 mr-3"></i> Color-coordinated matching symmetry</li>
-                            <li class="flex items-center"><i class="fa-solid fa-user-group text-gold-400 mr-3"></i> 2 Master Tyers dispatched on-location</li>
-                            <li class="flex items-center"><i class="fa-solid fa-plus text-gold-400 mr-3"></i> Extra persons at discounted rate ($80/ea)</li>
+                            <li class="flex items-center"><i class="fa-solid fa-clock text-gold-400 mr-3"></i> Quick touch-up support during shoot</li>
+                            <li class="flex items-center"><i class="fa-solid fa-sparkles text-gold-400 mr-3"></i> Custom folds to complement outfit</li>
                         </ul>
                     </div>
                     <a href="#booking" class="mt-8 block text-center border border-gold-500/40 text-gold-300 font-heading text-xs uppercase tracking-widest py-3 hover:bg-gold-500/10 transition">
-                        Reserve Barat Group
+                        Reserve Photo Session
                     </a>
                 </div>
 
@@ -819,7 +820,7 @@
     </footer>
 
     <script>
-        // Dynamic Pagg Styles Data Array
+        // Dynamic Pagg Styles Data Array & Calculation Logic
         const paggStylesData = [
             {
                 id: 'patiala',
@@ -883,7 +884,7 @@
             }
         ];
 
-        let currentBasePrice = 50;
+        let currentBasePrice = 75; // Groom standard max
         let headCount = 1;
 
         document.addEventListener('DOMContentLoaded', () => {
@@ -986,29 +987,36 @@
             for (let radio of fabricRadios) {
                 if (radio.checked) {
                     fabricName = radio.value;
-                    if (radio.value === 'Rubia Heavy') fabricPrice = 15;
-                    if (radio.value === 'Malmal Soft Royal') fabricPrice = 20;
+                    if (radio.value === 'Rubia Heavy') fabricPrice = 5;
+                    if (radio.value === 'Malmal Soft Royal') fabricPrice = 10;
                 }
             }
 
             // Color
             const colorSelect = document.getElementById('color-palette');
             const selectedColor = colorSelect.value;
-            let colorExtra = selectedColor.includes('Custom Bespoke') ? 30 : 0;
+            let colorExtra = selectedColor.includes('Custom Bespoke') ? 10 : 0;
 
             // Add-ons
             let addonsTotal = 0;
-            if (document.getElementById('acc-kalgi').checked) addonsTotal += 25;
-            if (document.getElementById('acc-sehra').checked) addonsTotal += 20;
-            if (document.getElementById('acc-reception').checked) addonsTotal += 90;
+            if (document.getElementById('acc-kalgi').checked) addonsTotal += 10;
+            if (document.getElementById('acc-sehra').checked) addonsTotal += 15;
+            if (document.getElementById('acc-reception').checked) addonsTotal += 25;
 
-            const grandTotal = ((currentBasePrice + fabricPrice) * headCount) + colorExtra + addonsTotal;
+            // Group discount application
+            let groupDiscountPerPerson = 0;
+            if (headCount >= 2 && headCount <= 4) groupDiscountPerPerson = 3;
+            else if (headCount >= 5 && headCount <= 9) groupDiscountPerPerson = 5;
+            else if (headCount >= 10) groupDiscountPerPerson = 8;
+
+            const basePerPerson = Math.max(15, currentBasePrice + fabricPrice - groupDiscountPerPerson);
+            const grandTotal = (basePerPerson * headCount) + colorExtra + addonsTotal;
 
             // Occasion Name Label
             let occasionLabel = 'Royal Groom';
-            if (currentBasePrice === 30) occasionLabel = 'Barat / Family';
-            if (currentBasePrice === 50) occasionLabel = 'Executive Formal';
-            if (currentBasePrice === 75) occasionLabel = 'Gala VIP Concierge';
+            if (currentBasePrice === 35) occasionLabel = 'Barat / Family';
+            if (currentBasePrice === 45) occasionLabel = 'Executive Formal';
+            if (currentBasePrice === 50) occasionLabel = 'Pre-Wedding Shoot';
 
             document.getElementById('total-price').innerText = `$${grandTotal}`;
             document.getElementById('summary-occasion').innerText = occasionLabel;
