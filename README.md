@@ -658,23 +658,6 @@
                     </div>
                 </div>
 
-                <!-- FAQ Item 3 -->
-                <div class="border border-gold-500/30 bg-navy-900/60 overflow-hidden">
-                    <button onclick="toggleFaq(3)" class="w-full p-5 text-left font-heading text-sm font-bold text-slate-200 flex justify-between items-center hover:text-gold-300 transition"> 
-                    <div id="faq-ans-3" class="hidden px-5 pb-5 text-xs text-slate-300 font-light leading-relaxed border-t border-gold-500/10 pt-3">
-                    </div>
-                </div>
-
-                <!-- FAQ Item 4 -->
-                <div class="border border-gold-500/30 bg-navy-900/60 overflow-hidden">
-                    <button onclick="toggleFaq(4)" class="w-full p-5 text-left font-heading text-sm font-bold text-slate-200 flex justify-between items-center hover:text-gold-300 transition">
-                        <span>How long does a Groom royal turban tying session take?</span>
-                        <i id="faq-icon-4" class="fa-solid fa-chevron-down text-gold-400 transition-transform"></i>
-                    </button>
-                    id="faq-ans-4" class="hidden px-5 pb-5 text-xs text-slate-300 font-light leading-relaxed border-t border-gold-500/10 pt-3">
-                        A typical groom session takes 35 to 45 minutes, allowing ample time for fabric preparation, posture calibration, and jeweled Kalgi/Sehra attachment without rushing your big morning.
-                    </div>
-
         <section id="booking" class="py-24 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="bg-navy-900 border-2 border-gold-500/40 p-8 sm:p-12 shadow-2xl relative">
                 
