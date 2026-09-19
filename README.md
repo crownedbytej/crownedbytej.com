@@ -274,7 +274,7 @@
                         </div>
 
                         <p class="text-slate-300 text-sm sm:text-base leading-relaxed font-light">
-                            Tej Singh has spent over 15 years mastering the rare art of classic and modern turban geometry. Having tied crowns for international grooms, high-profile galas, and VIP functions across the globe, his signature technique produces razor-sharp layers, balanced heights, and royal poise.
+                            Tej Singh has spent over 3 years mastering the rare art of classic and modern turban geometry. Having tied crowns for international grooms, high-profile galas, and VIP functions across the globe, his signature technique produces razor-sharp layers, balanced heights, and royal poise.
                         </p>
 
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
