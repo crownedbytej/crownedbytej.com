@@ -1,4 +1,4 @@
-# crownedbytej.com
+<!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
@@ -135,8 +135,8 @@
 
                 <!-- CTA Action Button -->
                 <div class="hidden sm:block">
-                    <a href="#booking" class="shimmer-btn text-navy-950 font-heading font-bold text-xs uppercase tracking-widest px-6 py-3 border border-gold-300 shadow-md hover:scale-105 transition-transform block text-center">
-                        Request Crown
+                    <a href="#estimator" class="shimmer-btn text-navy-950 font-heading font-bold text-xs uppercase tracking-widest px-6 py-3 border border-gold-300 shadow-md hover:scale-105 transition-transform block text-center">
+                        Crown Estimator
                     </a>
                 </div>
 
@@ -157,8 +157,8 @@
             <a href="#packages" class="block py-2 text-slate-200 hover:text-gold-300 mobile-link">Packages</a>
             <a href="#testimonials" class="block py-2 text-slate-200 hover:text-gold-300 mobile-link">Reviews</a>
             <a href="#faq" class="block py-2 text-slate-200 hover:text-gold-300 mobile-link">FAQ</a>
-            <a href="#booking" class="inline-block w-full shimmer-btn text-navy-950 font-bold py-3 mt-2 border border-gold-300 mobile-link">
-                Request Crown
+            <a href="#estimator" class="inline-block w-full shimmer-btn text-navy-950 font-bold py-3 mt-2 border border-gold-300 mobile-link">
+                Crown Estimator
             </a>
         </div>
     </header>
@@ -336,7 +336,7 @@
                     <span class="font-heading text-xs tracking-[0.3em] uppercase text-gold-400 font-semibold">Bespoke Planning</span>
                     <h2 class="font-heading text-3xl sm:text-5xl font-bold text-slate-100">Crown Estimator Calculator</h2>
                     <p class="text-slate-300 text-xs sm:text-sm font-light">
-                        Customize your royal session details below to generate an instant estimate and transfer it directly to your reservation form.
+                        Customize your royal session details below to generate an instant estimate.
                     </p>
                 </div>
 
@@ -492,12 +492,6 @@
                                 Est. Tying Time: <strong id="summary-time" class="text-slate-200">45 - 60 mins</strong>
                             </div>
                         </div>
-
-                        <div class="pt-6">
-                            <a href="#booking" onclick="transferEstimateToBooking()" class="w-full shimmer-btn text-navy-950 font-heading font-bold text-xs uppercase tracking-widest py-3 border border-gold-200 text-center block">
-                                Lock In This Estimate
-                            </a>
-                        </div>
                     </div>
 
                 </div>
@@ -529,12 +523,9 @@
                             <li class="flex items-center"><i class="fa-solid fa-check text-gold-400 mr-3"></i> Beard alignment styling check</li>
                         </ul>
                     </div>
-                    <a href="#booking" class="mt-8 block text-center border border-gold-500/40 text-gold-300 font-heading text-xs uppercase tracking-widest py-3 hover:bg-gold-500/10 transition">
-                        Select Guest Service
-                    </a>
                 </div>
 
-                <!-- Package 2 (Featured Groom Package - Capped at $75 max) -->
+                <!-- Package 2 -->
                 <div class="bg-burgundy-950/70 border-2 border-gold-400 p-8 flex flex-col justify-between relative shadow-2xl royal-glow">
                     <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-gold-400 text-navy-950 font-heading text-[10px] font-bold uppercase tracking-widest px-4 py-1">
                         Most Requested
@@ -553,9 +544,6 @@
                             <li class="flex items-center"><i class="fa-solid fa-car text-gold-400 mr-3"></i> On-location venue travel included</li>
                         </ul>
                     </div>
-                    <a href="#booking" class="mt-8 block text-center shimmer-btn text-navy-950 font-heading text-xs font-bold uppercase tracking-widest py-3.5 border border-gold-200">
-                        Reserve Groom Crown ($75)
-                    </a>
                 </div>
 
                 <!-- Package 3 -->
@@ -573,9 +561,6 @@
                             <li class="flex items-center"><i class="fa-solid fa-sparkles text-gold-400 mr-3"></i> Custom folds to complement outfit</li>
                         </ul>
                     </div>
-                    <a href="#booking" class="mt-8 block text-center border border-gold-500/40 text-gold-300 font-heading text-xs uppercase tracking-widest py-3 hover:bg-gold-500/10 transition">
-                        Reserve Photo Session
-                    </a>
                 </div>
 
             </div>
@@ -643,7 +628,7 @@
                         <i id="faq-icon-1" class="fa-solid fa-chevron-down text-gold-400 transition-transform"></i>
                     </button>
                     <div id="faq-ans-1" class="hidden px-5 pb-5 text-xs text-slate-300 font-light leading-relaxed border-t border-gold-500/10 pt-3">
-                        We recommend reserving your booking 3 to 6 months in advance for peak wedding seasons (Spring/Summer). However, feel free to submit a reservation request for last-minute dates and we will do our best to accommodate your royal schedule.
+                        We recommend getting in touch 3 to 6 months in advance for peak wedding seasons (Spring/Summer). However, feel free to reach out for last-minute dates and we will do our best to accommodate your royal schedule.
                     </div>
                 </div>
 
@@ -657,84 +642,9 @@
                         We offer both choices! We can bring pre-starched, premium Full Voile or Rubia fabric matching your color palette, or we can expertly prepare, steam, and starch fabric that you supply.
                     </div>
                 </div>
-
-        <section id="booking" class="py-24 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="bg-navy-900 border-2 border-gold-500/40 p-8 sm:p-12 shadow-2xl relative">
-                
-                <div class="text-center space-y-3 mb-10">
-                    <span class="font-heading text-xs tracking-[0.4em] uppercase text-gold-400 font-semibold">Reserve Your Crown</span>
-                    <h2 class="font-brand text-3xl sm:text-4xl text-slate-100 font-bold">Royal Reservation Form</h2>
-                    <p class="text-slate-300 text-xs sm:text-sm font-light">
-                        Submit your event details to request calendar availability and confirm your crown reservation.
-                    </p>
-                </div>
-                <form id="royal-reservation-form" onsubmit="handleReservationSubmit(event)" class="space-y-6">
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                        <div>
-                            <label class="block font-heading text-xs text-gold-300 uppercase tracking-wider mb-2">Full Name *</label>
-                            <input type="text" required placeholder="e.g. Amarpreet Singh" class="w-full bg-navy-950 border border-gold-500/40 p-3 text-xs text-slate-100 focus:outline-none focus:border-gold-300">
-                        </div>
-                        <div>
-                            <label class="block font-heading text-xs text-gold-300 uppercase tracking-wider mb-2">Phone / WhatsApp *</label>
-                            <input type="tel" required placeholder="+1 (555) 000-0000" class="w-full bg-navy-950 border border-gold-500/40 p-3 text-xs text-slate-100 focus:outline-none focus:border-gold-300">
-                        </div>
-                    </div>
-
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                        <div>
-                            <label class="block font-heading text-xs text-gold-300 uppercase tracking-wider mb-2">Email Address *</label>
-                            <input type="email" required placeholder="royal.client@example.com" class="w-full bg-navy-950 border border-gold-500/40 p-3 text-xs text-slate-100 focus:outline-none focus:border-gold-300">
-                        </div>
-                        <div>
-                            <label class="block font-heading text-xs text-gold-300 uppercase tracking-wider mb-2">Event Date *</label>
-                            <input type="date" required class="w-full bg-navy-950 border border-gold-500/40 p-3 text-xs text-slate-100 focus:outline-none focus:border-gold-300">
-                        </div>
-                    </div>
-
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                        <div>
-                            <label class="block font-heading text-xs text-gold-300 uppercase tracking-wider mb-2">Venue Location / City</label>
-                            <input type="text" placeholder="e.g. Surrey, BC / Grand Palace Hotel" class="w-full bg-navy-950 border border-gold-500/40 p-3 text-xs text-slate-100 focus:outline-none focus:border-gold-300">
-                        </div>
-                        <div>
-                            <label class="block font-heading text-xs text-gold-300 uppercase tracking-wider mb-2">Preferred Tying Style</label>
-                            <select id="form-style" class="w-full bg-navy-950 border border-gold-500/40 p-3 text-xs text-slate-100 focus:outline-none focus:border-gold-300">
-                                <option value="Royal Patiala Shahi">Royal Patiala Shahi</option>
-                                <option value="Modern Wattan Wali">Modern Wattan Wali</option>
-                                <option value="Executive Amritsari">Executive Amritsari</option>
-                                <option value="Classic Royal Pochvi">Classic Royal Pochvi</option>
-                                <option value="Wedding Groom Crown">Wedding Groom Crown</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div>
-                        <label class="block font-heading text-xs text-gold-300 uppercase tracking-wider mb-2">Selected Package or Custom Notes</label>
-                        <textarea id="form-details" rows="3" class="w-full bg-navy-950 border border-gold-500/40 p-3 text-xs text-slate-100 focus:outline-none focus:border-gold-300" placeholder="Specify color theme, accessory requirements, or estimator summary..."></textarea>
-                    </div>
-
-                    <div class="text-center pt-4">
-                        <button type="submit" class="w-full sm:w-auto shimmer-btn text-navy-950 font-heading font-bold text-xs uppercase tracking-widest px-12 py-4 border border-gold-200 royal-glow-hover transition">
-                            Submit Royal Request
-                        </button>
-                    </div>
-                </form>
-
             </div>
         </section>
-
-    <div id="booking-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-navy-950/90 backdrop-blur-md hidden">
-        <div class="bg-navy-900 border-2 border-gold-400 p-8 sm:p-10 max-w-md w-full text-center relative shadow-2xl royal-glow">
-            <i class="fa-solid fa-crown text-gold-400 text-5xl mb-4 block"></i>
-            <h3 class="font-brand text-2xl font-bold text-slate-100 mb-2">Request Transmitted</h3>
-            <p class="text-xs text-slate-300 leading-relaxed font-light mb-6">
-                Your reservation details have been delivered to Tej Singh. You will receive a personal phone call and WhatsApp confirmation within 24 hours.
-            </p>
-            <button onclick="closeModal()" class="w-full shimmer-btn text-navy-950 font-heading font-bold text-xs uppercase tracking-widest py-3 border border-gold-200">
-                Return To Palace
-            </button>
-        </div>
-    </div>
+    </main>
 
     <footer class="bg-navy-950 border-t border-gold-500/30 py-16 text-slate-400 text-xs relative z-10">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-10">
@@ -916,9 +826,6 @@
                         <div class="text-[11px] text-slate-400 mb-3">
                             <strong class="text-slate-300 uppercase tracking-wider font-heading">Occasion:</strong> ${style.occasion}
                         </div>
-                        <a href="#booking" onclick="selectStyleForForm('${style.name}')" class="inline-block w-full text-center py-2.5 bg-navy-950 border border-gold-500/40 text-gold-300 font-heading text-xs uppercase tracking-widest hover:bg-gold-500/20 transition">
-                            Select Style
-                        </a>
                     </div>
                 </div>
             `).join('');
@@ -994,28 +901,23 @@
             document.getElementById('summary-time').innerText = estTime;
         }
 
-        function selectStyleForForm(styleName) {
-            const formStyle = document.getElementById('form-style');
-            if (formStyle) formStyle.value = styleName;
-        }
-
-        function transferEstimateToBooking() {
-            const occasion = document.getElementById('summary-occasion').innerText;
-            const fabric = document.getElementById('summary-fabric').innerText;
-            const color = document.getElementById('summary-color').innerText;
-            const count = document.getElementById('summary-count').innerText;
-            const total = document.getElementById('total-price').innerText;
-
-            const textarea = document.getElementById('form-details');
-            if (textarea) {
-                textarea.value = `[Estimator Package Summary]\nStature: ${occasion}\nFabric: ${fabric}\nColor Theme: ${color}\nHead Count: ${count}\nEstimated Total: ${total}`;
+        // Toggle FAQ Accordion
+        function toggleFaq(num) {
+            const ans = document.getElementById(`faq-ans-${num}`);
+            const icon = document.getElementById(`faq-icon-${num}`);
+            if (ans.classList.contains('hidden')) {
+                ans.classList.remove('hidden');
+                icon.classList.add('rotate-180');
+            } else {
+                ans.classList.add('hidden');
+                icon.classList.remove('rotate-180');
             }
         }
-<form id="booking-form" action="https://formspree.io/f/mzezddvb" method="POST">
 
         // Animated Gold Floating Particles Canvas
         function initParticles() {
             const canvas = document.getElementById('particles-canvas');
+            if (!canvas) return;
             const ctx = canvas.getContext('2d');
             
             let width = canvas.width = window.innerWidth;
@@ -1058,3 +960,5 @@
             animate();
         }
     </script>
+</body>
+</html>
