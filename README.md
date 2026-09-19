@@ -1011,28 +1011,7 @@
                 textarea.value = `[Estimator Package Summary]\nStature: ${occasion}\nFabric: ${fabric}\nColor Theme: ${color}\nHead Count: ${count}\nEstimated Total: ${total}`;
             }
         }
-
-        function handleReservationSubmit(e) {
-            e.preventDefault();
-            document.getElementById('booking-modal').classList.remove('hidden');
-            document.getElementById('royal-reservation-form').reset();
-        }
-
-        function closeModal() {
-            document.getElementById('booking-modal').classList.add('hidden');
-        }
-
-        function toggleFaq(id) {
-            const ans = document.getElementById(`faq-ans-${id}`);
-            const icon = document.getElementById(`faq-icon-${id}`);
-            if (ans.classList.contains('hidden')) {
-                ans.classList.remove('hidden');
-                icon.classList.add('rotate-180');
-            } else {
-                ans.classList.add('hidden');
-                icon.classList.remove('rotate-180');
-            }
-        }
+<form id="booking-form" action="https://formspree.io/f/mzezddvb" method="POST">
 
         // Animated Gold Floating Particles Canvas
         function initParticles() {
