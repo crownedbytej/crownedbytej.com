@@ -883,7 +883,7 @@
             }
         ];
 
-        let currentBasePrice = 180;
+        let currentBasePrice = 50;
         let headCount = 1;
 
         document.addEventListener('DOMContentLoaded', () => {
@@ -1006,9 +1006,9 @@
 
             // Occasion Name Label
             let occasionLabel = 'Royal Groom';
-            if (currentBasePrice === 75) occasionLabel = 'Barat / Family';
-            if (currentBasePrice === 85) occasionLabel = 'Executive Formal';
-            if (currentBasePrice === 220) occasionLabel = 'Gala VIP Concierge';
+            if (currentBasePrice === 30) occasionLabel = 'Barat / Family';
+            if (currentBasePrice === 50) occasionLabel = 'Executive Formal';
+            if (currentBasePrice === 75) occasionLabel = 'Gala VIP Concierge';
 
             document.getElementById('total-price').innerText = `$${grandTotal}`;
             document.getElementById('summary-occasion').innerText = occasionLabel;
