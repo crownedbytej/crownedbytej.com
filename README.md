@@ -671,12 +671,9 @@
                         <span>How long does a Groom royal turban tying session take?</span>
                         <i id="faq-icon-4" class="fa-solid fa-chevron-down text-gold-400 transition-transform"></i>
                     </button>
-                    <div id="faq-ans-4" class="hidden px-5 pb-5 text-xs text-slate-300 font-light leading-relaxed border-t border-gold-500/10 pt-3">
+                    id="faq-ans-4" class="hidden px-5 pb-5 text-xs text-slate-300 font-light leading-relaxed border-t border-gold-500/10 pt-3">
                         A typical groom session takes 35 to 45 minutes, allowing ample time for fabric preparation, posture calibration, and jeweled Kalgi/Sehra attachment without rushing your big morning.
                     </div>
-                </div>
-            </div>
-        </section>
 
         <section id="booking" class="py-24 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="bg-navy-900 border-2 border-gold-500/40 p-8 sm:p-12 shadow-2xl relative">
@@ -688,7 +685,6 @@
                         Submit your event details to request calendar availability and confirm your crown reservation.
                     </p>
                 </div>
-
                 <form id="royal-reservation-form" onsubmit="handleReservationSubmit(event)" class="space-y-6">
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                         <div>
@@ -793,7 +789,7 @@
                 <ul class="space-y-2">
                     <li class="flex items-center"><i class="fa-solid fa-phone text-gold-400 mr-2"></i> +1 (604) 555-PAGG</li>
                     <li class="flex items-center"><i class="fa-solid fa-envelope text-gold-400 mr-2"></i> concierge@crownedbytej.com</li>
-                    <li class="flex items-center"><i class="fa-brands fa-instagram text-gold-400 mr-2"></i> @CrownedByTej</li>
+                    <li class="flex items-center"><i class="fa-brands fa-instagram text-gold-400 mr-2"></i> @crowned.by.tej</li>
                 </ul>
             </div>
 
@@ -1101,6 +1097,3 @@
             animate();
         }
     </script>
-</body>
-</html>
-
