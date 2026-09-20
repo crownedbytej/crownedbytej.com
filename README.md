@@ -1,4 +1,3 @@
-
 <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
@@ -679,8 +678,6 @@
             <div>
                 <h4 class="font-heading text-xs text-gold-300 uppercase tracking-widest mb-4">Direct Communication</h4>
                 <ul class="space-y-2">
-                    <li class="flex items-center"><i class="fa-solid fa-phone text-gold-400 mr-2"></i> +1 (604) 555-PAGG</li>
-                    <li class="flex items-center"><i class="fa-solid fa-envelope text-gold-400 mr-2"></i> concierge@crownedbytej.com</li>
                     <li class="flex items-center"><i class="fa-brands fa-instagram text-gold-400 mr-2"></i> @crowned.by.tej</li>
                 </ul>
             </div>
@@ -960,5 +957,3 @@
             animate();
         }
     </script>
-</body>
-</html>
